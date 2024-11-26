@@ -11,7 +11,7 @@ class DisplayMetrics(object):
 
 
 def ImageToLPBM(image):
-    #Simple function to convert a PIL Image into LPBM format.
+    """Simple function to convert a PIL Image into LPBM format"""
     
     # Ensure the image is in grayscale ('L') or monochrome ('1') mode
     image = image.convert('1')  # Convert to monochrome (1-bit) if not already
